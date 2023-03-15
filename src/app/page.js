@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import AboutProfile from "./pages/aboutprofile";
 
 export default function Home() {
   return (
@@ -13,9 +12,7 @@ export default function Home() {
         </div>
         <Navbar />
       </div>
-      <div>
-        <AboutProfile />
-      </div>
+      <div></div>
     </div>
   );
 }
